@@ -1,6 +1,6 @@
 site_name: Turret Expansion
-site_url: https://kanaede.github.io/Turret-Expansions/
-repo_url: https://github.com/kanaede/Turret-Expansion
+site_url: https://kanaede.github.io/MindustryExpansions/
+repo_url: https://github.com/kanaede/MindustryExpansion
 theme:
   name: material
   custom_dir: overrides
