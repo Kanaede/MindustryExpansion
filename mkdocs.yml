@@ -1,4 +1,13 @@
-site_name: My Docs
+site_name: Turret Expansion
+site_url: https://kanaede.github.io/Turret-Expansions/
+repo_url: https://github.com/kanaede/Turret-Expansion
 theme:
   name: material
   custom_dir: overrides
+  logo: assets/favicon.png
+  favicon: assets/fav.png
+  features:
+    - navigation.tracking
+
+extra_css:
+  - 'stylesheets/main.css'
