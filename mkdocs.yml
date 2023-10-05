@@ -4,8 +4,8 @@ repo_url: https://github.com/kanaede/MindustryExpansion
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/favicon.png
-  favicon: assets/fav.png
+  logo: assets/favicon-me.png
+  favicon: assets/favicon-me.png
   features:
     - navigation.tracking
 
