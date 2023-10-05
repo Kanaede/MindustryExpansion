@@ -1,17 +1,19 @@
-# Welcome to MkDocs
+# Turret Expansion
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Latest Mod Version: 2.0
 
-## Commands
+A Mindustry mod, created by [Artemwing Zuoran](https://github.com/zuoranartemwing)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+This mod adds more varied and unique towers. It's still under development, so please be patient or help us to get this project to a release version
 
-## Project layout
+## Contributing
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<style>
+.store{
+	width: 150px;
+}
+</style>
+
+Login and go to github, find out issues or add ideas there! For discussion about making this mod, please join the Discord 
+
+<a href="https://discord.gg/ugQAwDTD2j"><img class="store" src="assets/discord-join.png"></img><a>
