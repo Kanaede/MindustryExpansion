@@ -9,7 +9,8 @@ This modpack for mindustry game
 List of all mods:
 | Name | Version |
 | :--- | :---: |
+| Mindustry Expansion [MdE] | Unavaiable |
 | Turret Expansion [TE] | 2.0 Alpha |
-| Utility Expansion [UTE] | Unavaiable |
-| Unit Expansion [UNE] | Unavaiable |
+| Ex Fundation [ExF] | Unavaiable |
+| Unit Expansion [UnE] | Unavaiable |
 | Factory Expansion [FE] | Unavaiable |
