@@ -11,6 +11,6 @@ List of all mods:
 | :--- | :---: |
 | Mindustry Expansion [MdE] | Unavaiable |
 | Turret Expansion [TE] | 2.0 Alpha |
-| Ex Fundation [ExF] | Unavaiable |
-| Unit Expansion [UnE] | Unavaiable |
-| Factory Expansion [FE] | Unavaiable |
+| Expansion Fundation [EF] | Unavaiable |
+| Utilities Expansion [UE] | Unavaiable |
+| Machinery Expansion [ME] | Unavaiable |
