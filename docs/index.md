@@ -10,9 +10,11 @@ This mod adds more varied and unique towers. It's still under development, so pl
 
 | Name | Version |
 | :--- | :---: |
-| TE - Turret Expansion | 2.0 |
-| FE - Machinery Expansion | unavaiable |
-| UE - Utility Expansion | unavaiable |
+| EF - Expansion Foundation | Unavailable |
+| TE - Turret Expansion | 2.0 (Alpha) |
+| FE - Machinery Expansion | Unavaiable |
+| UE - Utility Expansion | Unavaiable |
+| DE - Dynamic Expansion | Unavailable |
 
 ## Contributing
 
