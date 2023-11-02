@@ -1,0 +1,13 @@
+name: mindustry-expand
+displayName: Mindustry Expandsion
+author: zuoranartemwing
+version: 0.0.1
+description:
+```
+Mod for add more expansion
+
+Still Under Development
+```
+minModVersion: 145
+dependencies:[]
+hidden:false

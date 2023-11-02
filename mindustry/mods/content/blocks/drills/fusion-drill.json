@@ -1,0 +1,44 @@
+{
+    "type": "Drill",
+    "category": "production",
+    "tier": 7,
+    "size":4,
+    "liquidBoostIntensity": 2,
+    "drillTime": 240,
+    "rotateSpeed": 8,
+    "hasItems": true,
+    "hasLiquids": true,
+    "hasPower": true,
+    "itemCapacity": 40,
+    "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            {
+                "type":"drawRegion",
+                "suffix":"-rotator",
+                "x":2,
+                "spinSprite":true
+            },
+            {
+                "type":"drawRegion",
+                "suffix":"-top",
+                "x":2
+            }
+        ]
+    },
+    "consumes": {
+        "power": 3,
+        "liquid": {
+          "liquid": "water",
+          "amount": 0.2,
+          "booster": true,
+          "optional": true
+        }
+    },
+    "requirements": [
+        {"item":"copper","amount":280},
+        {"item":"titanium","amount":260},
+        {"item":"thorium","amount":280},
+        {"item":"plastanium","amount":300}
+    ]
+}

@@ -1,6 +1,6 @@
 # Turret Expansion
 
-## Latest Mod Version: 2.0 - ALPHA
+## Latest Mod Version: 2.2.1 - Beta
 
 Mod still in development
 
