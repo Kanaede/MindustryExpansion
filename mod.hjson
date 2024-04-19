@@ -6,7 +6,7 @@ description:
   Add more Things !!
   
   [red]THIS IS STILL IN DEVELOPMENT[]
-  
+
   Want fast update??
   Join to our server or check at our github
 
@@ -16,7 +16,7 @@ description:
 
   MF Version: 0.1.0
   '''
-version: 2.3.4
+version: 2.3.5
 minGameVersion: 146
 dependencies: []
 
