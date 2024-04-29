@@ -1,0 +1,9 @@
+{
+  "displayName": "Aurorium",
+  "type": "Item",
+  "flamability": 0,
+  "radioActivity": 0.2,
+  "charge": 0.1,
+  "explosiveness": 0,
+  "hardness": 4
+}

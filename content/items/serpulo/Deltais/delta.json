@@ -1,9 +1,9 @@
 {
-  "localizedName": "Deltan",
+  "localizedName": "Delta",
   "color": "48f8ebff",
   "frames": 10,
   "transitionFrames": 3,
   "frameTime": 1,
   "hidden": true,
-  "research": "deltan"
+  "research": "deltais"
 }

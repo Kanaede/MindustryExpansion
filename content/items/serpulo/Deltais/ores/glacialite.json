@@ -1,0 +1,9 @@
+{
+  "displayName": "Glacialite",
+  "type": "Item",
+  "flamability": 0,
+  "radioActivity": 0,
+  "charge": 0.5,
+  "explosiveness": 0,
+  "hardness": 4
+}

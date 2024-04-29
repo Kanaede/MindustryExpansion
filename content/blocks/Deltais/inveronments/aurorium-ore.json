@@ -1,0 +1,9 @@
+{
+  "type": "Floor",
+  "oreDefault": "true",
+  "oreScale": 23,
+  "oreThreshold": 0.85,
+  "itemDrop": "aurorium",
+  "playerUnmineable": true,
+  "color": ""
+}
