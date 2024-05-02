@@ -11,14 +11,12 @@ description:
   Join to our server or check at our github
 
   Contributors:
-  Kanaede
+  Kanade
   NEON-XZR
-
-  MF Version: 0.1.0
   '''
 version: 2.3.5
 minGameVersion: 146
 dependencies: []
 
-// I Hate HJSON
+// I Hate HJSON -Kanade
 //me too- neon

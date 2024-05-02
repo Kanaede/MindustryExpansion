@@ -4,6 +4,5 @@
   "oreScale": 20,
   "oreThreshold": 0.9,
   "itemDrop": "glacialite",
-  "playerUnmineable": true,
-  "color": ""
+  "playerUnmineable": true
 }
