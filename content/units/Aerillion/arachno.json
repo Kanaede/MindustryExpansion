@@ -1,6 +1,4 @@
 {   
-    "name": "Arachno",
-    "description": "A gigantic spider unit. An Aerillion masterpiece before its popularity was eroded by time, and now it's just an ancient guard.",
     "groundLayer": 80,
     "drawShields": false,
     "singleTarget": true,
@@ -69,11 +67,14 @@
         {
             "name": "arachno-blaster",
             "parentizeEffects": true,
-            "predictTarget": false,
             "parts": [
                 {
                     "type": "ShapePart",
-                    "progress": "charge",
+                    "progress": {
+                        "type": "charge",
+                        "op": "curve",
+                        "interp": "pow5In"
+                    },
                     "color": "c0ecff00",
                     "colorTo": "c0ecffff",
                     "hollow": false,
@@ -87,7 +88,11 @@
                 },
                 {
                     "type": "ShapePart",
-                    "progress": "charge",
+                    "progress": {
+                        "type": "charge",
+                        "op": "curve",
+                        "interp": "pow5In"
+                    },
                     "color": "c0ecff00",
                     "colorTo": "c0ecffff",
                     "hollow": false,
@@ -101,7 +106,11 @@
                 },
                 {
                     "type": "ShapePart",
-                    "progress": "charge",
+                    "progress": {
+                        "type": "charge",
+                        "op": "curve",
+                        "interp": "pow5In"
+                    },
                     "color": "c0ecff00",
                     "colorTo": "c0ecffff",
                     "hollow": false,
@@ -113,10 +122,13 @@
                     "layer": 110,
                     "y": 40
                 },
-
                 {
                     "type": "shapePart",
-                    "progress": "charge",
+                    "progress": {
+                        "type": "charge",
+                        "op": "curve",
+                        "interp": "pow5In"
+                    },
                     "color": "c0ecffff",
                     "colorTo": "c0ecffff",
                     "hollow": true,
@@ -131,7 +143,11 @@
                 },
                 {
                     "type": "ShapePart",
-                    "progress": "charge",
+                    "progress": {
+                        "type": "charge",
+                        "op": "curve",
+                        "interp": "pow5In"
+                    },
                     "color": "c0ecffff",
                     "colorTo": "c0ecffff",
                     "hollow": true,
@@ -141,6 +157,36 @@
                     "radiusTo": 100,
                     "radius": 0,
                     "layer": 110,
+                    "y": 40
+                },
+                {
+                    "type": "FlarePart",
+                    "progress": {
+                        "type": "charge",
+                        "op": "curve",
+                        "interp": "pow5In"
+                    },
+                    "color1": "ffffff",
+                    "color2": "c0ecff",
+                    "layer": 110,
+                    "radius": 0,
+                    "radiusTo": 100,
+                    "spinSpeed": 3,
+                    "y": 40
+                },
+                {
+                    "type": "FlarePart",
+                    "progress": {
+                        "type": "recoil",
+                        "op": "curve",
+                        "interp": "pow10In"
+                    },
+                    "color1": "ffffff",
+                    "color2": "c0ecff",
+                    "layer": 110,
+                    "radius": 0,
+                    "radiusTo":100,
+                    "spinSpeed": 3,
                     "y": 40
                 }
             ],
@@ -180,7 +226,8 @@
                             "colorFrom": "c0ecffff",
                             "colorTo": "c0ecff00",
                             "strokeFrom": 0,
-                            "strokeTo": 30
+                            "strokeTo": 30,
+                            "interp": "pow5Out"
                         },
                         {
                             "type": "WaveEffect",
@@ -192,7 +239,8 @@
                             "colorFrom": "c0ecffff",
                             "colorTo": "c0ecffff",
                             "strokeFrom": 10,
-                            "strokeTo": 30
+                            "strokeTo": 30,
+                            "interp": "pow5Out"
                         }
                     ],
                 "width": 30,
@@ -210,8 +258,7 @@
             "x": 0,
             "y": 0,
             "shootY": 40,
-            "recoil": 0,
-            "shootCone": 1
+            "recoil": 0
         },
         {
             "name": "arachno-macgun",
@@ -337,6 +384,20 @@
             "layer": 110,
             "stroke": 0,
             "strokeTo": 10
+        },
+        {
+            "type": "haloPart",
+            "haloRadius": 110,
+            "haloRotateSpeed": 0.7,
+            "shapes": 2,
+            "y": -65,
+            "color": "ffff00",
+            "radius": 20,
+            "layer": 110,
+            "tri": true,
+            "triLength": 0,
+            "triLengthTo": 50,
+            "$comment": "thx to @noone023 on discord for orbiting tri idea"
         }
     ],
     "immunities": [

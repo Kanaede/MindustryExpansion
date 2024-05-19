@@ -56,7 +56,8 @@
           "sinScl":0
           }
         ]
-        },
+      }
+    },
       "surge-alloy":{
         "type":"BasicBulletType",
         "height":70,
@@ -95,7 +96,7 @@
             }
           ]
         }
-      }/*,
+      },
       "primax":{
           "type":"BasicBulletType",
           "height":70,
@@ -132,7 +133,7 @@
                   }
               ]
           }
-      }*/
+      }
   },
   "requirements":[
     "copper/2600",
@@ -151,5 +152,4 @@
           "amount":1.2
       }
   }
-}
 }

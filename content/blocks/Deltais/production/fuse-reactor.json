@@ -5,6 +5,8 @@
   "hasLiquid":true,
   "size":4,
   "craftTime":300,
+  "itemCapacity": 150,
+  "liquidCapacity": 150,
   "outputItem": {"item":"fuse-stone","amount":1},
   "consumes":{
     "power":100,
@@ -20,9 +22,9 @@
     {"item":"plastanium","amount":270},
     {"item":"phase-fabric","amount":430}
   ],
-  "research":"alloy-smelter",
+  "research":"surge-smelter",
   "drawer":{
-    "type":"MultiDraw",
+    "type":"DrawMulti",
     "drawers":[
       {
         "type": "DrawParticles",
